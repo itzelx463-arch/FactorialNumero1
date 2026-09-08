@@ -14,12 +14,3 @@ console.log(factorialCiclo)(5);
 console.log(factorialCiclo)(6);
 console.log(`El factorial de ${numero} es: ${factorialIterativo(numero)}`);
 
-function mostrarSerieFactorial(n) {
-    let factorial = 1;
-    for (let i = 1; i <= n; i++) {
-        factorial *= i;
-        console.log(`Factorial de ${i} (${i}!) = ${factorial}`);
-    }
-}
-
-mostrarSerieFactorial(5);
