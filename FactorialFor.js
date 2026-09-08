@@ -12,3 +12,4 @@ function factorialCiclo(n) {
 console.log(factorialCiclo(5)); // Resultado: 120
 console.log(factorialCiclo)(5);
 console.log(factorialCiclo)(6);
+console.log(`El factorial de ${numero} es: ${factorialIterativo(numero)}`);
