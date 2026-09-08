@@ -10,3 +10,4 @@ function factorialCiclo(n) {
 }
 
 console.log(factorialCiclo(5)); // Resultado: 120
+console.log(factorialCiclo)(5);
